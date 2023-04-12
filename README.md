@@ -1,5 +1,6 @@
+```
 # DL a package .deb file but dont install
-sudo apt download $1
+sudo apt download <package-name>
 # Extract the deb
 mkdir debout
 dpkg-deb -x *.deb ./debout
@@ -10,3 +11,4 @@ dpkg-deb -e ../*.deb
 dpkg-deb -b . ../example-new.deb
 # Install
 sudo dpkg -i ../example-new.deb
+```
