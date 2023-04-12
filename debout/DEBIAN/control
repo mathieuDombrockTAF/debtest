@@ -1,0 +1,12 @@
+Package: debtest
+Version: 0.0.1
+Architecture: all
+Maintainer: Mathieu Dombrock
+Original-Maintainer: Mathieu Dombrock
+Installed-Size: 524
+Depends: 
+Provides: 
+Section: javascript
+Priority: optional
+Homepage: https://example.com/
+Description: This is just a test

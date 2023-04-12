@@ -1,0 +1,9 @@
+[Unit]
+Description=Hello World Service
+
+[Service]
+Type=simple
+ExecStart=/bin/bash -c 'while true; do echo "Hello World"; sleep 30; done'
+
+[Install]
+WantedBy=multi-user.target
